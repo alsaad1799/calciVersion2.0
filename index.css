@@ -1,0 +1,91 @@
+*{
+ background-color:#17202A;
+}
+div{
+  text-align:center;
+  
+}
+form{
+  background-color:#000000;
+  width:400px;
+  margin:0 auto;
+  padding:2%;
+  padding-top: 30px;
+  padding-bottom:30px;
+   border-bottom-left-radius:25px 30px;
+  border-bottom-right-radius:25px 30px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  font-size:30px;
+}
+input{
+  background-color:#00000;
+  color:#ffffff;
+  font-family:"Times New Roman";
+  width:18%;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+input:hover{
+  background-color:white;
+  color:black;
+}
+.screen{
+  width:100%;
+    font-size:40px;
+  text-align:right;
+  background-color:#ffffff;
+  border-radius:0px;
+  color:#000000;
+}
+.del{
+  width:38%;
+  background-color: #FF1493;
+}
+.last{
+  width:22.7%;
+}
+span{
+  background-color:#000000;
+  color:yellow;
+  float:right;
+  font-size:15px;
+  line-height:20px;
+}
+@media only screen and (max-width: 600px){
+  form{
+    width:300px;
+    font-size:25px;
+  }
+}
+.macalci{ 
+  margin:0 auto;
+   line-height:100px;
+}
+#open{
+  border:10px outset #b3b3b3;
+  border-radius:130px;
+ background-color:#000000;
+  color:#ffffff;
+  width:130px;
+  float:left;
+}
+#open:hover{
+  border:10px inset #b3b3b3;
+  color:green;
+}
+.one{ color:yellow}
+.two{color:white}
+.macalci,h1{
+  display:inline-block;
+}
+.macalci{
+  text-align:left;
+  diaplay:block;
+}
+h1{
+  float:right;
+  diaplay:block;
+}
